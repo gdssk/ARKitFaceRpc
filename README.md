@@ -12,7 +12,7 @@
 - ARKitFaceTracking 4.0.2
 
 # How to use
-1. プロジェクトにMirror(https://github.com/vis2k/Mirror/releases/tag/v16.11.2)を追加してください。
+1. プロジェクトにMirror (https://github.com/vis2k/Mirror/releases/tag/v16.11.2) を追加してください。
 2. `ARFaceRPC/Scenes/Client` を起動のシーンになるようにしてiOSアプリとしてビルドし、端末にインストールしてください。
 
 3. `ARFaceRPC/Scenes/Server` をエディタで起動して、HUDの「ServerOnly」をクリックしてください。
