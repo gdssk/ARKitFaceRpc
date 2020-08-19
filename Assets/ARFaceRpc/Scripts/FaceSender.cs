@@ -74,11 +74,11 @@ namespace ARFaceRpc
                 data.FaceAngle = m_Face.transform.localEulerAngles;
                 data.TrackingStatus = (int)m_Face.trackingState;
 
-                data.leftEyePosition = m_Face.leftEye.position;
-                data.leftEyeAngle = m_Face.leftEye.localEulerAngles;
+                data.LeftEyePosition = m_Face.leftEye.position;
+                data.LeftEyeAngle = m_Face.leftEye.localEulerAngles;
 
-                data.rightEyePosition = m_Face.rightEye.position;
-                data.rightEyeAngle = m_Face.rightEye.localEulerAngles;
+                data.RightEyePosition = m_Face.rightEye.position;
+                data.RightEyeAngle = m_Face.rightEye.localEulerAngles;
 
                 foreach (var featureCoefficient in blendShapes)
                 {

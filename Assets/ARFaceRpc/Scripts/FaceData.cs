@@ -28,20 +28,20 @@ namespace ARFaceRpc
         /// <summary>
         /// 左目の座標
         /// </summary>
-        public Vector3 leftEyePosition;
+        public Vector3 LeftEyePosition;
         /// <summary>
         /// 左目の角度
         /// </summary>
-        public Vector3 leftEyeAngle;
+        public Vector3 LeftEyeAngle;
 
         /// <summary>
         /// 右目の座標
         /// </summary>
-        public Vector3 rightEyePosition;
+        public Vector3 RightEyePosition;
         /// <summary>
         /// 右目の角度
         /// </summary>
-        public Vector3 rightEyeAngle;
+        public Vector3 RightEyeAngle;
 
         /// <summary>
         /// 表情データ
